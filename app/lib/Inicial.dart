@@ -13,10 +13,22 @@ class Inicial extends StatelessWidget {
           "FUERZAS ARMADAS",
           style: TextStyle(
             fontSize: 30, // Tamaño de fuente
-            fontStyle: FontStyle.normal, // Cursiva
-            color: Colors.black // Color del texto
+            fontStyle: FontStyle.italic, // Cursiva
+            color: Colors.white // Color del texto
           ),
         ),
+        centerTitle: true, // titulo appbar centrado
+        backgroundColor: Colors.black,
+      ),
+      body: Stack(
+        children: [
+          Positioned.fill(
+            child: Image.asset(
+              'assets/Fondos.jpg',
+              fit: BoxFit.cover,
+            ),
+          )
+        ],
       ),
     );
   }
