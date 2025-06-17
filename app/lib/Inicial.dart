@@ -9,7 +9,14 @@ class Inicial extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("FUERZAS ARMADAS"),
+        title: Text(
+          "FUERZAS ARMADAS",
+          style: TextStyle(
+            fontSize: 30, // Tamaño de fuente
+            fontStyle: FontStyle.normal, // Cursiva
+            color: Colors.black // Color del texto
+          ),
+        ),
       ),
     );
   }
