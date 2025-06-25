@@ -66,6 +66,7 @@ flutter:
     - assets/Colombia.jpg
     - assets/uruguay.jpg
     - assets/Fondos.jpg
+    - assets/loading5.gif
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
