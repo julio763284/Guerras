@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'Inicial.dart';
 import 'Loading.dart';
+import 'Inicial.dart';
+import 'Failure.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +11,8 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return Cargando();
+    return MaterialApp(
+      home: Fallo(),
+    );
   }
 }
