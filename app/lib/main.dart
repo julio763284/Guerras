@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'Failure.dart';
 import 'Loading.dart';
 import 'Inicial.dart';
-import 'Failure.dart';
+import 'Sucess.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Fallo(),
+      home: Sucess(),
     );
   }
 }
