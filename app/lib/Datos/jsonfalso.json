@@ -1,0 +1,27 @@
+
+[
+  {
+  "nombre" : "Federacion Rusa",
+  "imagen" : "assets/rusia.gif",
+  "gasto" : "6%",
+  "presidente" : "Vladimir Putin"
+  },
+  {
+  "nombre" : "China",
+  "imagen" : "assets/china.gif",
+  "gasto" : "1,5%",
+  "presidente" : "Xi jinpinp"
+  },
+  {
+  "nombre" : "Francia",
+  "imagen" : "assets/francia.gif",
+  "gasto" : "2%",
+  "presidente" : "Emanuel Macron"
+  },
+  {
+  "nombre" : "Uruguay",
+  "imagen" : "assets/uruguay.gif",
+  "gasto" : "0,5%",
+  "presidente" : "Yamadi urzi"
+  }
+]
